@@ -6,10 +6,7 @@ export class SocketTCPWeb extends WebPlugin implements SocketTCPPlugin {
   NOT_SUPPORTED: string = "ERR_PLATFORM_NOT_SUPPORTED";
 
   constructor() {
-    super({
-      name: 'SocketTCP',
-      platforms: ['web']
-    });
+    super();
   }
 
   async echo(options: { value: string }): Promise<{value: string}> {

@@ -37,7 +37,7 @@ public class SocketTCP extends Plugin {
 
         JSObject ret = new JSObject();
         ret.put("value", value);
-        call.success(ret);
+        call.resolve(ret);
     }
 
     @PluginMethod()
@@ -66,7 +66,7 @@ public class SocketTCP extends Plugin {
         JSObject ret = new JSObject();
         ret.put("success", true);
         ret.put("client", clients.size() - 1);
-        call.success(ret);
+        call.resolve(ret);
     }
 
     @PluginMethod()
@@ -122,7 +122,7 @@ public class SocketTCP extends Plugin {
 
         JSObject ret = new JSObject();
         ret.put("success", true);
-        call.success(ret);
+        call.resolve(ret);
     }
 
     @PluginMethod()
@@ -163,7 +163,7 @@ public class SocketTCP extends Plugin {
 
         JSObject ret = new JSObject();
         ret.put("success", true);
-        call.success(ret);
+        call.resolve(ret);
     }
 
     @PluginMethod()
@@ -187,6 +187,6 @@ public class SocketTCP extends Plugin {
         JSObject ret = new JSObject();
         ret.put("success", true);
         ret.put("client", client);
-        call.success(ret);
+        call.resolve(ret);
     }
 }

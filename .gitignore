@@ -30,6 +30,7 @@ plugins/ios.json
 www/
 
 android/.gradle
+android/.idea
 
 .idea
 

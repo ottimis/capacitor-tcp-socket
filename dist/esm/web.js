@@ -1,10 +1,7 @@
 import { WebPlugin } from '@capacitor/core';
 export class SocketTCPWeb extends WebPlugin {
     constructor() {
-        super({
-            name: 'SocketTCP',
-            platforms: ['web']
-        });
+        super();
         this.NOT_SUPPORTED = "ERR_PLATFORM_NOT_SUPPORTED";
     }
     async echo(options) {

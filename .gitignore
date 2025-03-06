@@ -29,6 +29,10 @@ plugins/android.json
 plugins/ios.json
 www/
 
+android/.gradle
+
+.idea
+
 # Trash data
 $RECYCLE.BIN/
 .DS_Store

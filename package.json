@@ -1,6 +1,6 @@
 {
   "name": "@ottimis/tcp-socket",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Client for communicate via TCP",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
